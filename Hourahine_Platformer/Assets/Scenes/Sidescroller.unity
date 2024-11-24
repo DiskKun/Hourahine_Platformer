@@ -1631,9 +1631,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86a1ce42ea3e3dd44868493ae73ec06d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  apexTime: 0.4
+  apexHeight: 3
+  terminalVelocity: -20
+  coyoteTime: 1
   horizontalMaxVelocity: 10
-  horizontalAcceleration: 0.5
-  horizontalDeceleration: 1
+  horizontalAcceleration: 20
+  horizontalDeceleration: 40
   groundedRaycastLength: 0.65
 --- !u!4 &1433354315
 Transform:
@@ -1644,7 +1648,7 @@ Transform:
   m_GameObject: {fileID: 1433354312}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.04, y: -2.34, z: 0}
+  m_LocalPosition: {x: 1.13, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1681,7 +1685,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
